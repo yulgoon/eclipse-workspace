@@ -1,0 +1,19 @@
+package inheritance;
+
+public class ColourPoint extends Point {
+	/*
+	 * extends (클래스명) <- (클래스명)의 클래스를 상속 받겠다는 예약어
+	 * ColourPoint : 자식클래스 / Point : 부모클래스
+	 */
+
+	private String colour; // 점(x,y)의 색을 표현하는 좌표값을 입력만으려고 생성
+
+	public void setColour(String colour) {
+		this.colour = colour;
+	}
+
+	public void showColourPoint() {
+		System.out.println(colour);
+		showPoint();		// 상속 받은 Point 클래스의 메소드 호출	
+	}
+}

@@ -1,0 +1,9 @@
+package chapter05;
+
+public class Student02 {
+	String studentName;
+	int studentID;
+	String subjectKorean;
+	String subjectmath;
+
+}

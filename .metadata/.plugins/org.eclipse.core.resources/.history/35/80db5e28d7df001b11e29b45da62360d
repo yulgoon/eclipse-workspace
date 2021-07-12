@@ -1,0 +1,22 @@
+package chapter05;
+
+public class PersonTest {
+	
+	public static void main(String[] args) {
+		Person p = new Person();
+		p.setAge(40);
+		p.setName("James");
+		p.setMarriage(true);
+		p.setKid(3);
+		
+		if(p.isMarriage()==true) {
+			System.out.println("기혼");
+		}
+		else {
+			System.out.println("미혼");
+		}
+		
+		System.out.println(p.getName()+"의 나이는 "+p.getAge()+"세이고, "+p.isMarriage()+"이며, 자녀의 수는 "+p.Kid()+"명입니다.");
+	}
+
+}

@@ -1,0 +1,16 @@
+package test;
+
+public class Q14 {
+
+	public static void main(String[] arge) {
+
+		int average;
+		
+		int array[] = new int[10];
+		System.out.println(array.length);
+		for(int i=(int)(Math.random()*100+1); i<array.length; i++) {
+
+			
+		}
+	}
+}

@@ -1,0 +1,15 @@
+// [문항2]  1 ~ 100 까지 합 프로그램을 작성 하시오. 
+
+package test;
+
+public class Q02 { 
+	public static void main(String[] args) { 
+		int sum = 0; 
+		int num = 1;
+		for (num = 5; num <= 100; num++) {
+			sum += num;
+		} 
+		
+		System.out.println(sum);
+	}
+} 

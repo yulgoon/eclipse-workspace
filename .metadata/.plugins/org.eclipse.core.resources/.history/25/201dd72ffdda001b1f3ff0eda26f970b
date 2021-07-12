@@ -1,0 +1,14 @@
+package test;
+
+public class Q6 {
+
+	public static void main(String[] args) { 
+		int max = 0; 
+		int[] array = {4,5,1,2,3}; 
+
+		
+
+System.out.println("max: " + max); 
+	}
+	
+}

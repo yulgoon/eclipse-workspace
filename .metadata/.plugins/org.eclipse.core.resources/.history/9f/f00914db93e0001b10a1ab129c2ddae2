@@ -1,0 +1,43 @@
+package chapter09_2;
+
+public class Avante extends Car {
+
+	public static void main(String[] args) {
+		String sonata = "Sonata ";
+		Car ava = new Car();
+		System.out.print(sonata);	ava.start();
+		System.out.print(sonata);	ava.drive();
+		System.out.print(sonata);	ava.stop();
+		System.out.print(sonata);	ava.turnoff();
+		ava.carWash();
+		System.out.println("====================");
+		
+		String grandeur = "Grandeur ";
+		Car ava = new Car();
+		System.out.print(grandeur);	ava.start();
+		System.out.print(grandeur);	ava.drive();
+		System.out.print(grandeur);	ava.stop();
+		System.out.print(grandeur);	ava.turnoff();
+		ava.carWash();
+		System.out.println("====================");
+		
+		String avante = "Avante ";
+		Car ava = new Car();
+		System.out.print(avante);	ava.start();
+		System.out.print(avante);	ava.drive();
+		System.out.print(avante);	ava.stop();
+		System.out.print(avante);	ava.turnoff();
+		ava.carWash();
+		System.out.println("====================");
+		
+		String avante = "Avante ";
+		Car ava = new Car();
+		System.out.print(avante);	ava.start();
+		System.out.print(avante);	ava.drive();
+		System.out.print(avante);	ava.stop();
+		System.out.print(avante);	ava.turnoff();
+		ava.carWash();
+		System.out.println("====================");
+		
+	}
+}

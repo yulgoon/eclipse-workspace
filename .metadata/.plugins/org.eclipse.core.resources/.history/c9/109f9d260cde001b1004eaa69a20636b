@@ -1,0 +1,17 @@
+package inheritance2;
+
+public class Student extends Person	{
+	
+	public void set() {
+		age=30;
+		height=165;
+		name="±èÅÂ¸®";
+		setWeight(48);
+		
+
+	}
+
+	public static void main(String[] args) {
+		System.out.println(age+height+name+getWeight());
+	}
+}

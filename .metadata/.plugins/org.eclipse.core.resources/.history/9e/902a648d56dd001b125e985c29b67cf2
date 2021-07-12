@@ -1,0 +1,12 @@
+package test;
+
+import java.util.Scanner;
+
+public class Q14_re {
+
+	public static void main(String[] args) {
+		Scanner sc = Scanner(System.in);
+		
+		
+	}
+}

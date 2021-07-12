@@ -1,0 +1,15 @@
+package test;
+
+import java.util.Scanner;
+
+public class Q17 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		String str[]= {"가위","바위","보"};
+		int n=(int)(Math.random()*3);
+		
+				
+	}
+}

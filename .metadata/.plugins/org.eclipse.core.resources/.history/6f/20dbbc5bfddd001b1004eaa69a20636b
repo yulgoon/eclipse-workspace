@@ -1,0 +1,13 @@
+package inheritance;
+
+import inheritance.Point;
+
+public class ColourPointEx {
+
+	public static void main(String[] args) {
+		
+		Point p = new Point();	// Point 클래서의 객체 생성
+		p.x=1;
+		p.y=2;
+	}
+}

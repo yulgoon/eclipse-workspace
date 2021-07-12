@@ -1,0 +1,19 @@
+package test;
+
+public class Q15 {
+	
+	public static void main(String[] args) {
+		int num1;
+		int num2;
+		
+		int[] array = new int [100];
+		
+		for(int i=1; i<=array.length; i++) {
+			num1 = i;
+			if(i%3==0) {
+				System.out.println(num1+"¹Ú¼ö Â¦");
+			}
+
+		}
+	}
+}

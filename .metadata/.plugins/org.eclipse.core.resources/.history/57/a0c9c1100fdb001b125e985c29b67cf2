@@ -1,0 +1,24 @@
+package test;
+
+import java.util.Scanner;
+
+public class Q16 {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("과목명을 입력하세요.");
+		
+		String course[] = {"Java","C++","HTML5","컴퓨터구조","안드로이드"};
+			int score[] = {95,88,76,62,55};
+
+		for(int i=0; i<course.length; i++)
+			course[i] = scanner.next();
+			if(course[i] == scanner.next()) {
+			System.out.println(course[i]);
+		}
+		
+		scanner.close();
+	}
+}
+

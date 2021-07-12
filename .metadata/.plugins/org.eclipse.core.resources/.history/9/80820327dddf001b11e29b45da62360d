@@ -1,0 +1,15 @@
+package chapter05;
+
+public class CalendarTest {
+
+	public static void main(String[] args) {
+
+		Calendar today = new Calendar();
+		today.day = 33;
+		today.month = 7;
+		today.year = 2021;
+
+		System.out.println(today.getDay() + "/" + today.getMonth() + "/" + today.getYear());
+	}
+
+}

@@ -1,0 +1,7 @@
+package q;
+
+public abstract class Abstract {
+	abstract int add(int x, int y);
+	abstract void t();
+}
+

@@ -1,0 +1,20 @@
+package ex08;
+
+public class VIPCustomer extends Customer {
+
+	private int agentID;
+	double saleRatio;
+
+	public VIPCustomer(int customerID, String customerName, int agentID) {
+
+		super(customerID, customerName);
+		customerGrade = "VIP";	// Customer class의 초기 등급 SILVER였던 것에 VIP로 덮어씌움
+		bonusRatio = 0.05;
+		saleRatio = 0.1;
+		this.agentID = agentID;
+	}
+
+	public int getAgentID() {
+		return agentID;
+	}
+}

@@ -1,0 +1,22 @@
+package inheritance;
+
+public class ColourPointEx extends Point {
+
+	public static void main(String[] args) {
+
+		Point p = new Point(); // Point 努贰辑狼 按眉 积己
+
+		p.set(1, 2);
+		p.showPoint();
+
+		ColourPoint cp = new ColourPoint();	// ColourPoint 按眉
+		cp.set(3, 4);
+		cp.setColour("red");
+		cp.showColourPoint();
+		
+		ColourPoint gr = new ColourPoint();
+		gr.set(5, 6);
+		gr.setColour("green");
+		gr.showColourPoint();
+	}
+}

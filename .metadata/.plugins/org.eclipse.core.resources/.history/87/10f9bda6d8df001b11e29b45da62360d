@@ -1,0 +1,7 @@
+package chapter05;
+
+public class PersonTest {
+	Person p = new Person("¹ÚÀå¿ì");
+	p.height
+
+}

@@ -1,0 +1,16 @@
+package p;
+
+public class A {
+
+	int def;
+	private int pri;
+	protected int pro;
+	public int pub;
+	public int getPri() {
+		return pri;
+	}
+	public void setPri(int pri) {
+		this.pri = pri;
+	}
+	
+}

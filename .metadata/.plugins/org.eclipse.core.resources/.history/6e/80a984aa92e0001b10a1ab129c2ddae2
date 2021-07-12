@@ -1,0 +1,15 @@
+package chapter09_2;
+
+public class Avante extends Car {
+
+	public static void main(String[] args) {
+		String avante = "Avante ";
+		Car ava = new Car();
+		System.out.print(avante);	ava.start();
+		System.out.print(avante);	ava.drive();
+		System.out.prinn(avante);	ava.stop();
+		System.out.println(avante);	ava.turnoff();
+		ava.carWash();
+
+	}
+}
